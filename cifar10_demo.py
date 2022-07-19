@@ -12,7 +12,7 @@ from keras.callbacks import ModelCheckpoint
 import sys
 sys.path.append('../')
 
-from helper import cnn_model
+from .helper import cnn_model
 from pipeline_input import pipeline_data_visualizer, pipeline_dataset_interpreter, pipeline_ensembler, pipeline_model, pipeline_input
 from constants import *
 
